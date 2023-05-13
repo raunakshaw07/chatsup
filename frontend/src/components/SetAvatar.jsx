@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import axios from "axios";
 import { Buffer } from "buffer";
-// import loader from "../assets/loader1.gif";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
@@ -69,7 +68,6 @@ export default function SetAvatar() {
     <>
       {isLoading ? (
         <Container>
-          {/* <img src={loader} alt="loader" className="loader" /> */}
           <h1 className="loading">Please Wait While We Create Your Account....</h1>
         </Container>
       ) : (
